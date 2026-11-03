@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff4f1">
+    <meta name="description" content="Veux tu passer le jour de l'an avec moi my Chouquette Love ?">
+    <title>Pour my Chouquette Love 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="invitation">
+      <div class="sparkle sparkle--one" aria-hidden="true">✦</div>
+      <div class="sparkle sparkle--two" aria-hidden="true">✧</div>
+
+      <section class="card" aria-labelledby="question">
+        <div class="question-row">
+          <svg class="question-cat" viewBox="0 0 96 88" role="img" aria-label="Un petit chat qui sourit">
+            <path d="M17 37 14 10l23 15a39 39 0 0 1 22 0L82 10l-3 28a34 34 0 1 1-62-1Z" fill="#f3b2a1" stroke="#674b50" stroke-width="4" stroke-linejoin="round"/>
+            <path d="m23 29-3-11 12 8m44 3 2-11-12 8" fill="#f8d3c8"/>
+            <path d="M32 46c3-4 7-4 10 0m13 0c3-4 7-4 10 0" fill="none" stroke="#674b50" stroke-width="4" stroke-linecap="round"/>
+            <path d="m44 54 4 3 4-3" fill="#d9797d" stroke="#674b50" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M48 57c-2 7-9 7-12 3m12-3c2 7 9 7 12 3" fill="none" stroke="#674b50" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M25 54 9 51m17 9-16 3m61-9 16-3m-17 9 16 3" fill="none" stroke="#674b50" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="31" cy="56" r="4" fill="#ed858a" opacity=".7"/>
+            <circle cx="65" cy="56" r="4" fill="#ed858a" opacity=".7"/>
+          </svg>
+
+          <div class="question-copy">
+            <h1 id="question">Veux tu passer le jour de l'an avec moi my Chouquette Love ?</h1>
+          </div>
+        </div>
+
+        <div class="button-stage" id="button-stage">
+          <button class="button button--yes" id="yes-button" type="button">Oui 💖</button>
+          <button class="button button--no" id="no-button" type="button">Non</button>
+        </div>
+
+        <p class="answer" id="answer" role="status" aria-live="polite"></p>
+        <div class="happy-cats" id="happy-cats" aria-hidden="true"></div>
+      </section>
+
+      <div class="celebration" id="celebration" aria-hidden="true"></div>
+    </main>
+  </body>
+</html>
