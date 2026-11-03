@@ -28,7 +28,7 @@ La page est 100 % statique (HTML/CSS/JS) : on peut aussi simplement double-cliqu
 
 ## Mise en ligne
 
-Pour obtenir un lien à envoyer : publier le dépôt sur GitHub et activer **GitHub Pages** (Settings → Pages → branche `main`). Le lien aura la forme `https://<pseudo>.github.io/jdl/`.
+La page est publiée sur GitHub Pages : https://sachaheinfling-png.github.io/jdl/
 
 ## À faire
 
@@ -36,9 +36,10 @@ Pour obtenir un lien à envoyer : publier le dépôt sur GitHub et activer **Git
 - [x] Bouton « Non » qui s'échappe (souris + tactile)
 - [x] Animation « Oui » : chats + cœurs, avec respect de `prefers-reduced-motion`
 - [x] Test responsive à 375 px
-- [ ] Mise en ligne et envoi du lien
+- [x] Mise en ligne sur GitHub Pages
 
 ## Journal
 
 - 2026-11-03 : création du projet
 - 2026-11-03 : création et test de la page d'invitation statique, sans dépendance externe
+- 2026-11-03 : publication du site sur GitHub Pages
